@@ -33,7 +33,7 @@ func Quote_parse(w http.ResponseWriter, r *http.Request) ([]quote, error) {
         log.Fatal("Problem with creating GET request")
         return nil, err
     }
-    request.Header.Add("X-Api-Key", "WvjVzEZMj11DzG3q9LiaDg==wUc7uZiIEppoIFP1")
+    request.Header.Add("X-Api-Key", "YOUR API KEY")
     response, err := http.DefaultClient.Do(request)
     if err != nil {
         log.Fatal("Couldn't send the request")
