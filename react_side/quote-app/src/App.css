@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(320deg, #eb92be 0%, #ffef78 100%, #63c9b4 60%);
+    justify-content: center;
+    font-display: swap;
+}
+
+.Card{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px soid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    padding: 50px 65px;
+    padding-bottom: 90px;
+    overflow: hidden;
+    margin: 15%;
+    margin-top: 75px;
+    margin-bottom: 22px;
+
+}
+
+
+.Screen{
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border: 5px solid rgba(255, 255, 255, 0.34) ;
+}
+
+.Title{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-wrap: nowrap; 
+    font-size: 7vw;
+    font-weight: 600;
+}
+.Screen2{
+    font-size: 4vw;
+    font-weight: 1000;
+    margin: 25px;
+    background: none;
+    border: none;
+    overflow: hidden;
+}
+
+
+.GenDis{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+}
+
+.Button1{
+    font-size: 2.5vw;
+    height: 100px;
+    width: 700px;
+}
+
+.Quote{
+    text-shadow: 0.5px 0.5px 1px grey, 0 0 0.5px grey, 0 0 0.002px grey;
+    padding: 30px;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
