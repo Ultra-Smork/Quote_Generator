@@ -2,4 +2,4 @@
 2. npm run dev
 3. success
 
-4. if Problem check API_KEY
+** Ensure that API_KEY is set properly **
